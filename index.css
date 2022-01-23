@@ -1,0 +1,169 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #CCFFCC;
+}
+
+
+section
+{
+    width: 100%;
+}
+
+
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    background-color: #87CEEB;
+}
+
+header h1 
+{
+    font-size: 32px;
+    font-family: sans-serif;
+    background-color: #87CEEB;
+}
+
+
+section h2
+{
+    margin-bottom: 15px;
+}
+
+section .list-wrapper 
+{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section .list-wrapper > div
+{
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+section .list-wrapper > div:first-child 
+{
+    width: 50%;
+}
+
+
+section .list-wrapper > div:last-child 
+{
+    width: 10%;
+}
+
+
+section .list-wrapper > div:nth-child(2)
+{
+    width: 40%;
+}
+
+
+section .list-wrapper > div button 
+{
+    padding: 10px 25px;
+    border-radius: 0.25rem;
+    border: none;
+    color: #fff;
+    background-color: #59B159;
+}
+
+
+section .list-wrapper > div table 
+{
+    border: 2px solid #002997;
+    border-spacing: 0 2px;
+}
+
+
+
+.highlight
+{
+    background:#FFFF00;
+}
+
+.highlight-click
+{
+    background:#00FFFF !important;
+}
+
+section .list-wrapper > div table tr td, 
+section .list-wrapper > div table tr th
+{
+    border: 1px solid #f1F1F1;
+    padding: 5px;
+}
+
+
+section .affectation > div table tr th
+{
+    background-color: #f9f9f9;
+}
+
+
+section .affectation
+{
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section .affectation > div
+{
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+section .affectation > div:first-child
+{
+    width: 90%;
+}
+
+
+section .affectation > div:last-child
+{
+    width: 10%;
+}
+
+
+section .affectation > div button 
+{
+    padding: 10px 25px;
+    border-radius: 0.25rem;
+    border: none;
+    color: #fff;
+    background-color: #59B159;
+}
+
+
+section .affectation > div table 
+{
+    border: 2px solid #002997;
+}
+
+
+section .affectation > div table tr td, 
+section .affectation > div table tr th
+{
+    border: 1px solid #f1F1F1;
+    padding: 5px;
+}
